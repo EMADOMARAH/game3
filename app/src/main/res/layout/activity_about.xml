@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1f2124"
+    tools:context=".About"
+
+    android:paddingHorizontal="20dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/dad"
+        app:civ_border_width="2dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        app:civ_border_color="#FF000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="اسمى/محمد سيد"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="طالب فى معهد العاشر فى قسم علوم حاسب"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textColor="#d7d7d8"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="فكرة الابلكيشن بأختصار هدفه صدقه على روح والدى وعلى كل الناس الى توفت ولم يتذكرهم الناس ربنا يرحمهم جميعا"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#d7d7d8"
+        android:gravity="center"
+        />
+
+</LinearLayout>
